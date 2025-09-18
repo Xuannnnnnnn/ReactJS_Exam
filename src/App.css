@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.card-img-fixed {
+  height: 220px;       
+  object-fit: cover;   
+  width: 100%;        
+}
+.banner-img {
+  width: 100%;
+  max-width: 1000px;   /* tăng chiều rộng tối đa của ảnh */
+  height: 500px;        /* tự tính chiều cao theo tỉ lệ gốc */
+  display: block;
+  margin: 0 auto;
+}
+
+
+.navbar .nav-link {
+  font-size: 20px !important;   
+  font-weight: 600 !important;   
+  color: #6c757d !important;     
+  text-decoration: none !important;
+  margin: 0 40px;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #000 !important;         
+}
