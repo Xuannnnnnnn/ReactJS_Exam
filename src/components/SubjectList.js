@@ -30,6 +30,7 @@ function SubjectList() {
         ))}
       </Row>
 
+
       {}
       {subjects.length > 0 && (
         <p style={{ fontSize: "20px", marginTop: "20px" }}>
